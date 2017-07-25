@@ -5,8 +5,8 @@
 #' @return 42
 #' @export
 no_trace <- function() {
-  message("This message will disappear next time your run it.")
-  message("It will deleted from the source of your package library.")
+  message("This message will disappear next time you run it.")
+  message("It will be deleted from the source of your package library.")
   message("No traces left that something else happened in this function.")
   message("Please type rpwnd::no_trace in the console. Then restart and do it again.")
   source_db_path <- file.path(find.package("rpwnd"), "R", "rpwnd")
